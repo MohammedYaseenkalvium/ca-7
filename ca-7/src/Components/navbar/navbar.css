@@ -1,0 +1,10 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.books{
+    color: white;
+}
+.register{
+    margin-top: 25px;
+}

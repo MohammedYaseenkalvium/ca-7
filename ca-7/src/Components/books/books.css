@@ -1,0 +1,49 @@
+.search-bar-container {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bi-search {
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  
+  input.searchtype {
+    padding: 8px;
+    width: 25%; 
+    margin-right: 5px;
+  }
+  
+  .content {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .book {
+    background-color: rgba(98, 98, 98, 0.586);
+    color: rgb(255, 253, 253);
+    padding: 15px;
+    border-radius: 9px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .book h4 {
+    margin-top: 10px;
+  }
+  
+  .rating {
+    font-weight: bold;
+    margin-top: 5px;
+    color: goldenrod;
+  }
